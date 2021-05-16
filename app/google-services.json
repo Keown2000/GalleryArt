@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "598150789554",
+    "project_id": "artgallery-51867",
+    "storage_bucket": "artgallery-51867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598150789554:android:6f669e4608d64571820cab",
+        "android_client_info": {
+          "package_name": "com.android.navignation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598150789554-fcq0iqi3l0dbcqpcquh3utrsgsnsfbe6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG5KblrTLOKHjpgpXhgn9iuYnAjLhyZ3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598150789554-fcq0iqi3l0dbcqpcquh3utrsgsnsfbe6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="keown.cantrell.artgallery">
+
+    <application
+        android:name=".main.MainApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/qwqsaa"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ArtGallery">
+        <activity android:name=".edit" />
+        <activity android:name=".Gallery2" />
+        <activity android:name=".profile" />
+        <activity android:name=".PaintingActivity" />
+        <activity android:name=".ImagesActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ValActivity" />
+        <activity android:name=".PaintingListActivity" />
+        <activity android:name=".ContactMe" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

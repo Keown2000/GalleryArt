@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:elevation="24dp"
+    android:background="@color/purple_200">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:background="@color/purple_200"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imageIcon"
+            android:layout_width="144dp"
+            android:layout_height="231dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:id="@+id/paintingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageIcon"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/paintingTitle"
+            android:layout_toRightOf="@+id/imageIcon"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:id="@+id/Other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            android:layout_toRightOf="@+id/imageIcon"
+            android:hint="Other" />
+
+        <TextView
+            android:id="@+id/Paint"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/Other"
+            android:layout_toRightOf="@+id/imageIcon"
+            android:hint="Paint" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
